@@ -27,7 +27,7 @@ These were not so bad as they seem.
 
 As an example, For example, try to do this (the actual command is `curl wttr.in`) :-)
 
-![wttr](https://raw.githubusercontent.com/Adrian-LL/VSC-Trials/master/images/wttr.JPG)
+![wttr](https://raw.githubusercontent.com/Adrian-LL/vscode-cpp-setting-trials/master/images/wttr.JPG)
 
 This is also a matter of personal preference.
 
@@ -39,7 +39,7 @@ This is also a matter of personal preference.
 > Just install Mobaxterm and it works (i.e. leave it with the default configuration). It includes the X Server needed to running graphical apps. Mobaxterm contains a Cygwin toolkit, but we will not use it. 
 See the default Mobaxterm after installation.
  
-![mobaxterm](https://raw.githubusercontent.com/Adrian-LL/VSC-Trials/master/images/mobaxterm.JPG)
+![mobaxterm](https://raw.githubusercontent.com/Adrian-LL/vscode-cpp-setting-trials/master/images/mobaxterm.JPG)
 
 As you can see, there is now a WSL-Ubuntu (if you have Ubuntu installed) in the Mobaxterm. 
 
@@ -47,7 +47,7 @@ Just start this terminal. Do NOT use "Start local terminal" (this is the local C
 
 Note the X server icon in the upper right. By default a X server is started. Multiple tabbed windows (i.e. shells can be opened). Different linux versions can be configured via the Settings menu.
 
-![mobaxterm-tmux](https://raw.githubusercontent.com/Adrian-LL/VSC-Trials/master/images/mobaxterm-tmux.PNG)
+![mobaxterm-tmux](https://raw.githubusercontent.com/Adrian-LL/vscode-cpp-setting-trials/master/images/mobaxterm-tmux.PNG)
 
 Mobaxterm running tmux with 2-windows split, one running mc, and the other bash.
 Mouse is working for resizing thanks to adding below in .tmux.conf (create it if you don't have it).
@@ -120,7 +120,7 @@ $ xfce4-terminal &
 >Starting now, the missing features from WSL (as compared with a full, kernel-based installation of Linux) begin to appear.
 
 See for example an error message in Mobaxterm windows. The terminal works well though.
-![terminal](https://raw.githubusercontent.com/Adrian-LL/VSC-Trials/master/images/terminal.PNG)
+![terminal](https://raw.githubusercontent.com/Adrian-LL/vscode-cpp-setting-trials/master/images/terminal.PNG)
  
 ### Step 3 - now for the tricky part(s) - VSC:
 
@@ -153,23 +153,23 @@ $ code
 Since version 1.29, the default windows border style is "custom". You will get something as below, but a window impossible to resize and/or move. 
 See the difference in the next image.
 
-![custom](https://raw.githubusercontent.com/Adrian-LL/VSC-Trials/master/images/custom.PNG)
+![custom](https://raw.githubusercontent.com/Adrian-LL/vscode-cpp-setting-trials/master/images/custom.PNG)
 
 Modify from menu File -> Preferences -> Settings -> enter in the search bar "window.titleBarStyle" and change from "custom" to "native".
 
-![window.titleBarStyle](https://raw.githubusercontent.com/Adrian-LL/VSC-Trials/master/images/window.titleBarStyle.png)
+![window.titleBarStyle](https://raw.githubusercontent.com/Adrian-LL/vscode-cpp-setting-trials/master/images/window.titleBarStyle.png)
 
-![window.titleBarStyle-native](https://raw.githubusercontent.com/Adrian-LL/VSC-Trials/master/images/window.titleBarStyle-native.png)
+![window.titleBarStyle-native](https://raw.githubusercontent.com/Adrian-LL/vscode-cpp-setting-trials/master/images/window.titleBarStyle-native.png)
  
 Code will ask to restart. And, voila, a window with borders, and that can be resized and/or moved.
 
-![native](https://raw.githubusercontent.com/Adrian-LL/VSC-Trials/master/images/native.PNG) 
+![native](https://raw.githubusercontent.com/Adrian-LL/vscode-cpp-setting-trials/master/images/native.PNG) 
 
 > Please note that the steps above are not needed on a full Linux installation (i.e. not WSL) 
 
 Another default option is when launching a terminal, the terminal.integrated.rendererType - by default this is set to "auto". Choose "dom".
 
-![dom](https://raw.githubusercontent.com/Adrian-LL/VSC-Trials/master/images/dom.PNG)
+![dom](https://raw.githubusercontent.com/Adrian-LL/vscode-cpp-setting-trials/master/images/dom.PNG)
 
 ### Step 5: install extension(s) for C++. 
 If you try to install via the interface, it will not work (sometimes, very rarely, it does). So, manual process, for example as below. Ensure that code (or code-insiders) is NOT running, otherwise some other errors occur.
@@ -264,7 +264,7 @@ If everything goes well, just run it:
 ```bash
 ~$ subl .
 ```
-![sublime](https://raw.githubusercontent.com/Adrian-LL/VSC-Trials/master/images/sublime.JPG)
+![sublime](https://raw.githubusercontent.com/Adrian-LL/vscode-cpp-setting-trials/master/images/sublime.JPG)
 
 
 ## (Unfortunate) Conclusions
